@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/memento_preview_fragment_textureView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/memento_preview_fragment_imageButton_cancel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/cancel"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:id="@+id/memento_preview_fragment_imageButton_save"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/save"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:id="@+id/memento_preview_fragment_imageButton_ok"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/okay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

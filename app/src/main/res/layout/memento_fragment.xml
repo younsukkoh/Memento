@@ -1,0 +1,84 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextureView
+            android:id="@+id/memento_fragment_textureView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_list"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/list"/>
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_delete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/memento_fragment_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memento_fragment_editText"
+        android:inputType="text|textAutoCorrect"/>
+
+    <Button
+        android:id="@+id/memento_fragment_button_who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="who"
+        />
+
+    <Button
+        android:id="@+id/memento_fragment_button_when"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/memento_fragment_button_where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/memento_fragment_button_why"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/memento_fragment_button_why"/>
+
+    <TableRow
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_play"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/play"/>
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_record"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/capture"/>
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_save"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/save"/>
+        <ImageButton
+            android:id="@+id/memento_fragment_imageButton_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/edit"/>
+    </TableRow>
+
+
+</TableLayout>

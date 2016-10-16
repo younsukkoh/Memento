@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">memento</string>
+
+    <string name="memento_fragment_editText">What was the occasion?</string>
+    <string name="memento_fragment_button_why">Why </string>
+    <string name="memento_fragment_delete_warning">Warning</string>
+    <string name="memento_fragment_delete_warningMessage">Are you sure? This memento will be deleted.</string>
+    <string name="memento_fragment_button_where_title">Where did this happen?</string>
+    <string name="memento_fragment_button_where_choose">Choose a Place from the Map</string>
+
+    <string name="memento_list_fragment_main_noTitle">No title for this memento</string>
+    <string name="memento_list_fragment_main_textView_emptyView">There are no mementos yet.</string>
+
+    <string name="memento_list_fragment_menu_delete">Delete Crimes</string>
+
+    <string name="date_picker_title">Date of the Crime: </string>
+
+    <string name="search">Search</string>
+
+</resources>
